@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIAWYYXEWHSWUPVABME"
-  secret_key = "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"
+  access_key = "my-access-key"
+  secret_key = "my-secret-key"
 }
 
 resource "aws_instance" "Medicure-Deploy" {
